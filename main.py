@@ -1,6 +1,7 @@
 import psutil
 import time
 
+# Make GTA V online solo lobby
 for proc in psutil.process_iter(attrs=['pid','name']):
     if proc.name().lower() == "GTA5.exe".lower():
         proc.suspend()

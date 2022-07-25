@@ -1,6 +1,7 @@
 import psutil
 import time
 
+
 def suspend_gtav_process() -> None:
     """
     Suspend and resume GTA V online process for solo lobby

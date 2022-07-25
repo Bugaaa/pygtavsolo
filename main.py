@@ -14,6 +14,7 @@ def suspend_gtav_process() -> None:
             time.sleep(8)
             proc.resume()
             print("Resume")
+            break
 
 
 if __name__ == '__main__':
